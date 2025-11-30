@@ -1,6 +1,6 @@
 # 🏭 Apontamento de Produção - Teste Front-End
 
-> Solução para o desafio técnico de Front-End da Sequor. O objetivo foi desenvolver uma interface para registro de ordens de produção com validação de tempo baseada em regras de negócio.
+> Solução para o desafio técnico de Front-End. O objetivo foi desenvolver uma interface para registro de ordens de produção com validação de tempo baseada em regras de negócio.
 
 ![Status do Projeto](https://img.shields.io/badge/Status-Concluído-brightgreen) ![Tech](https://img.shields.io/badge/Tech-HTML%20%7C%20CSS%20%7C%20JS-blue)
 
