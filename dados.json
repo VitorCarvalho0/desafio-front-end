@@ -1,0 +1,40 @@
+{
+  "orders": [
+    {
+      "order": "111",
+      "quantity": 100.0,
+      "productCode": "abc",
+      "productDescription": "Carrinho Azul",
+      "image": "https://cdn-icons-png.flaticon.com/512/3081/3081986.png",
+      "cycleTime": 11.5,
+      "materials": [
+        {
+          "materialCode": "aaa",
+          "materialDescription": "Roda de Plástico"
+        },
+        {
+          "materialCode": "bbb",
+          "materialDescription": "Eixo de Metal"
+        }
+      ]
+    },
+    {
+      "order": "222",
+      "quantity": 200.0,
+      "productCode": "def",
+      "productDescription": "Boneca de Pano",
+      "image": "https://cdn-icons-png.flaticon.com/512/3081/3081840.png",
+      "cycleTime": 10.5,
+      "materials": [
+        {
+          "materialCode": "ccc",
+          "materialDescription": "Tecido Vermelho"
+        },
+        {
+          "materialCode": "bbb",
+          "materialDescription": "Linha de Costura"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Desafio - Front-End</title>
+  </head>
+  <body>
+    <main>
+      <h1>Apontamento de Produção</h1>
+
+      <form id="formProducao">
+        <div class="campo">
+          <label name="email">Digite seu e-mail:</label>
+          <input
+            type="email"
+            name="email"
+            id=""
+            placeholder="Digite seu email"
+          />
+        </div>
+
+        <div class="campo">
+          <label name="ordemSelect">ORdem de produção:</label>
+          <select name="ordemSelect" id="ordemSelect">
+            <option value="">Selecione um ordem:</option>
+          </select>
+        </div>
+
+        <div id="infoproduto" class="escondido">
+          <h3>Produto Slecionado:</h3>
+          <p id="descProduto">---</p>
+          <img id="imgProduto" src="" alt="imagem do produto" />
+        </div>
+
+        <div class="campo">
+          <label name="materialSelect">Material utilizado:</label>
+          <select id="materialSelect">
+            <option value="">Aguardando seleção de ordem.</option>
+          </select>
+        </div>
+
+        <div class="campo">
+          <label name="dataProducao">Data do Apontamento:</label>
+          <input type="date" id="dataProducao" />
+        </div>
+
+        <div class="campo">
+          <label name="quantidade">Quantidade:</label>
+          <input type="number" id="quantidade" placeholder="Qtd produzida" />
+        </div>
+
+        <button type="submit" id="btnEnviar" disabled>
+          Enviar Apontamento
+        </button>
+      </form>
+
+      <section>
+        <hr /> 
+        <section id="areaResultados">
+          <h2>Histórico de Produção</h2>
+  
+          <table>
+            <thead>
+              <tr>
+                <th>Ordem</th>
+                <th>Material</th>
+                <th>Qtd</th>
+                <th>Tempo (s)</th>
+              </tr>
+            </thead>
+            <tbody id="tabelaCorpo"></tbody>
+          </table>
+      </section>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
